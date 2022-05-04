@@ -3,7 +3,7 @@ import java.util.concurrent.TimeUnit;
 
 public class TaxiApp {
  
-    public static final int NUM_OF_CLIENT = 10;
+    public static final int NUM_OF_CLIENT = 8;
     public static void main(String[] args) {
         TaxiPool taxiPool = new TaxiPool();
         for (int i = 1; i <= NUM_OF_CLIENT; i++) {
